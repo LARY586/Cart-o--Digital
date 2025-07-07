@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.card {
+  max-width: 400px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  text-align: center;
+}
+
+/* Foto de perfil */
+header img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #0077b5;
+}
+
+/* Título e subtítulo */
+header h1 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+header h2 {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Descrição pessoal */
+.about {
+  font-size: 14px;
+  color: #444;
+  margin: 15px 0;
+}
+
+/* Contatos */
+.contact p {
+  font-size: 14px;
+  margin: 8px 0;
+  color: #333;
+}
+
+.contact i {
+  margin-right: 8px;
+  color: #0077b5;
+}
+
+/* Links Sociais */
+.social-links {
+  margin-top: 15px;
+}
+
+.social-links a {
+  margin: 0 10px;
+  color: #333;
+  font-size: 22px;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-links a:hover {
+  color: #0077b5;
+  transform: scale(1.2);
+}
